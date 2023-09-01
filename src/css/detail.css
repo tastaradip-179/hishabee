@@ -1,0 +1,61 @@
+.product-detail-header{
+    margin: 70px 0 50px 0;
+}
+.product-detail-header h1{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    color: #252525;
+}
+.product-detail-header .price-stock{}
+.product-detail-header .price-stock .price{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #05297F;
+}
+.product-detail-header .price-stock .old-price{}
+.product-detail-header .price-stock .stock{}
+.product-detail-header .price-stock .icons{}
+
+.product-detail-header .rating-review{}
+.product-detail-header .rating-review .review{}
+
+.product-detail-header .description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.product-detail-header .attribute{}
+.product-detail-header .attribute .colors{}
+.product-detail-header .attribute .sizes{}
+.product-detail-header .attribute .sizes{}
+
+.product-detail-header .info{}
+.product-detail-header .info .label{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.product-detail-header .info .name{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #252525;
+}
+
+.product-detail-header .social-icons{}

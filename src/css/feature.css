@@ -1,0 +1,51 @@
+.feature{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.feature h2{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.feature .featureCat{
+    margin-top: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 503px;
+    width: 100%;
+}
+
+.feature .featureCatText {
+    position: absolute;
+    left: 34px;
+    top: 270px;
+}
+.feature .featureCatText h3{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #252525;
+    margin-bottom: 13px;
+}
+.feature .featureCatText a{
+    display: inline-block;
+    background: #05297F;
+    border-radius: 20px;
+    padding: 9px 18px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

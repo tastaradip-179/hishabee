@@ -1,0 +1,83 @@
+.rs-grid-container {
+    width: 100%;
+}
+.navbar{
+    background: transparent;
+}
+.nav-item-links{
+    margin-top: 16px;
+}
+.nav-item-links a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 2px !important;
+    transition: .4s;
+}
+.nav-item-links a:hover{
+    background-color: transparent !important;
+    color: #05297F !important;
+}
+.navicons{
+    margin-top: 16px;
+}
+.navicons a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+    display: inline-block;
+    cursor: pointer;
+}
+.navicons a:hover{
+    color: #05297F !important;
+    background-color: transparent !important;
+}
+.cart{
+    display: inline-block;
+    position: relative;
+}
+.round{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: #05297F;
+    line-height: 17px;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    color: #ffffff !important;
+    font-size: 10px;
+    font-weight: 500;  
+}
+
+.cart-drawer h6{
+    font-size: 13px;
+}
+.cart-drawer span{
+    display: inline-block;
+    height: 15px;
+    width: 15px; 
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.cart-drawer .drawer-buttons{
+    margin-top: 20px;
+    float: right;
+}
+.cart-drawer .drawer-buttons button{
+    margin-left: 5px;
+}
+.cart-drawer .remove{
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 7px;
+}

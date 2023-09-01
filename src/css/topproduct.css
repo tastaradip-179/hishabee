@@ -1,0 +1,54 @@
+.topproduct{
+    margin-top: 100px;
+}
+
+.topproduct h2{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.topproduct ul{
+    list-style: none;
+    margin-top: 10px;
+    text-align: right;
+}
+.topproduct ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+.topproduct ul li span{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #FC9D9D;
+    border-radius: 50%;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+}
+.topproduct ul li a{
+    text-decoration: none !important;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;  
+    color: #252525;
+    padding-inline-start: 7px;
+}
+.topproduct ul li:hover a{
+    color: #252525;
+}
+.topproduct ul li:hover span{
+    width: 110%;
+    border-radius: 3px;
+}
+

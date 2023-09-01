@@ -1,0 +1,50 @@
+.dealBox{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+}
+.dealText{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    margin-left: 52px;
+}
+.dealText h6{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #05297F;
+    margin-bottom: 10px;
+}
+.dealText h3{ 
+    width: 210px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #252525;
+    margin-bottom: 34px;
+}
+.dealText a{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #05297F;
+    padding: 6px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.dealText a:active, .dealText a:hover{
+    background: #FC9D9D;
+}

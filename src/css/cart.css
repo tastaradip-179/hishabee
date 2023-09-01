@@ -1,0 +1,270 @@
+.cart-header{
+    margin: 70px 0 50px 0;
+}
+
+.cart-header h1{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    color: #252525;
+}
+.cart-product-list{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 20px auto;
+}
+.cart-product-list .cart-list-header{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.cart-product-list .cart-products{
+    position: relative;
+    border-bottom: 1px solid #EEF2F5;
+    padding: 20px 0;
+}
+.cart-product-list .cart-products:last-child{
+    border-bottom: none;
+}
+.cart-product-list .cart-products .product{
+    display: flex;
+}
+.cart-product-list .cart-products .product .img{
+    margin-right: 12px;
+}
+.cart-product-list .cart-products .product .img img{
+    width: 100px;
+    height: 100px;
+}
+.cart-product-list .cart-products .product .name{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #252525;
+    margin-bottom: 5px;
+}
+.cart-product-list .cart-products .product .label{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #252525;
+    display: inline-block;
+    margin-right: 5px;
+}
+.cart-product-list .cart-products .product .brand{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #B1B1B1;
+}
+.cart-product-list .cart-products .product .size{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #252525;
+    display: inline-block;
+}
+.cart-product-list .cart-products .product .color{
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.cart-product-list .cart-products .price{
+    position: absolute;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    top: 35px;
+    color: #303960;
+}
+.cart-product-list .cart-products .quantity-box{
+    position: absolute;
+    top: 25px;
+    color: #B1B1B1;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 95px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-radius: 50px;
+    text-align: center;
+}
+.cart-product-list .cart-products .quantity-box .quantity{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    color: #666666;
+    padding: 0 5px;
+}
+.cart-product-list .cart-products .quantity-box .operator{
+    padding-top: 10px;
+}
+.cart-product-list .cart-products .remove{
+    position: absolute;
+    top: 35px;
+    color: #B1B1B1;
+    cursor: pointer;
+}
+.cart-buttons{
+    text-align: right;
+}
+.cart-buttons button{
+    padding: 10px 30px;
+    background: #FC9D9D;
+    border-radius: 50px;
+}
+.cart-buttons button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.cart-buttons button.clear{
+    background: #EEF2F5;
+    color: #252525;
+}
+.cart-buttons button.update{
+    background: #FC9D9D;
+    color: #FFFFFF;
+}
+
+.discount{
+    margin-top: 50px;
+}
+.discount .rs-col {
+    padding-left: 0;
+}
+.discount form{
+    position: relative;
+}
+.discount h4{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #252525;
+    margin: 20px 0;
+}
+.discount input{
+    border-radius: 50px;
+    height: 40px;
+}
+.discount button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: #FC9D9D;
+    border-radius: 50px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 90px;
+}
+
+.shipping-box{
+    background: #EEF2F5;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    position: relative;
+    padding: 40px;
+}
+.shipping-box form{
+    margin-bottom: 100px;
+}
+.shipping-box h6{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #252525;
+    margin-bottom: 20px;
+}
+.shipping-box input{
+    border-radius: 50px;
+    height: 40px;
+}
+.shipping-box .rs-picker-select{
+    width: 100%;
+}
+.shipping-box .rs-picker-default .rs-picker-toggle {
+    border-radius: 50px;
+    height: 40px;
+}
+.shipping-box button{
+    background: #05297F;
+    border-radius: 50px;
+    height: 40px;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.shipping-box button.submit{
+    float: right;
+    width: 120px;
+}
+.shipping-box button.checkout{
+    width: 100%;
+}
+.shipping-box .total{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+}
+.shipping-box .subtotal{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #252525;
+    margin-bottom: 12px;
+}
+.shipping-box .shipping{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #252525;
+    margin-bottom: 22px;
+}
+
+

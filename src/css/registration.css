@@ -1,0 +1,11 @@
+.reg-box{
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 60px auto;
+    padding: 25px;
+}
+
+.reg-box .rs-form-vertical .rs-form-group .rs-form-help-text:not(.rs-form-help-text-tooltip) {
+    padding-top: 7px;
+}

@@ -1,0 +1,120 @@
+.rs-panel-body {
+    padding: 20px 0 !important; 
+}
+
+.rs-panel-header {
+    padding: 8px 0 0 0 !important; 
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #252525;
+}
+
+.attributes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.attributes .colors span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 9px;
+}
+.attributes .colors span.active{
+    border: 2px solid #C4C4C4;
+}
+
+.attributes .sizes{
+    margin-top: -3px;
+}
+.attributes .sizes span{
+    display: inline-block;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #252525;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.attributes .sizes span.active{
+    height: 22px;
+    width: 22px;
+    color: #05297F;
+    background: #F1F1F1;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.panel-sub-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.panel-sub-heading .rating svg{
+    font-size: 16px;
+    margin-right: 4px;
+    color: #FFBD69;
+}
+.panel-sub-heading .brand{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #B1B1B1;
+}
+
+.panel-heading{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #252525;
+    margin: 4px 0;  
+}
+.panel-heading a{
+    text-decoration: none;
+    color: #252525;
+}
+
+.cart-price{
+    margin-top: 12px;
+    position: relative;
+}
+.cart-price .cart{
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #FC9D9D;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+    padding: 5px;
+}
+.cart-price .price{ 
+    display: inline-block;
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #303960;
+}
+
+
